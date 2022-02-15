@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/index.css">
+    <title>Sushi Shop</title>
+   
+</head>
+<header>
+    <div class="banner">
+
+    </div>
+</header>
+<body>
+    <div class="bot12">
+        <div class="bot1">
+            <button id="index">Index</button>
+        </div>
+        <div class="bot2">
+            <a href="panier.html"><button id="panier">Panier</button></a>
+        </div>
+        <div class="nombreDeProduit">
+            <p class="parNom"></p>
+        </div>
+
+      
+    </div>
+
+    <main>
+        <div class="choix">
+                <label for="categorie"><b>Catégorie</b></label>
+                <select id="cat" name="categorie" value="saad" >
+                        <option selected disabled hidden></option>
+                        <option value="all">All</option>
+                        <option value="sushi">Sushi</option>
+                        <option value="maki">Maki</option>
+                        <option value="chirashi">Chirashi</option>
+                        <option value="gyoza">Gyoza</option>
+                        <option value="sashimi">Sashimi</option>
+                </select>
+        </div>
+      <div class="container">
+        <div id="sushicontainer" class="card-container"></div>
+      </div>
+    </main>
+    <p class="bstorm">© BSTORM - 2022</p>
+
+<script src="assets/scripts/main.js"></script>
+
+</body>
+</html>

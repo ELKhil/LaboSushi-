@@ -1,0 +1,183 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #050505;
+}
+
+
+.banner {
+    width: 100%;
+    height: 400px;
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+}
+.bot12{
+    display: flex;
+    flex-direction: row;
+    margin: 0 320px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #050505;
+    
+}
+
+.bot1{
+    display: flex;
+    padding-right: 20px;
+    
+}
+#index{
+    background-color: black;
+    color:white;
+    cursor: pointer;
+    width: 100px;   
+}
+#index:hover{
+    background-color:white;
+    color :black;
+}
+.bot2{
+    display: flex;
+    text-align: center;
+    padding-right: 10px;
+}
+
+#panier{
+    background-color: black;
+    color:white;
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+}
+#panier:hover{
+    background-color:white;
+    color :black;
+}
+
+.nombreDeProduit{
+    display: flex;
+    text-align: center;
+   
+}
+.parNom{
+    background-color: red;
+    color:white;
+    text-align: center;
+    width: 20px;
+    padding: 0px;
+    border-radius: 40%;
+   
+}
+
+
+
+
+main {
+    flex: 1;
+    padding: 15px;
+    background-color: #666;
+    margin: 0 250px;
+    margin-bottom: 150px;
+    padding-left: 1px;
+    padding-right: 1px;
+    
+}
+th{
+   
+    border-bottom: 1px solid black;
+    width: 400px;
+    height: 5px;
+    padding: 0px;
+    text-align: center;
+   
+  }
+
+tbody td{
+    /* border-bottom: 1px solid black; */
+    width: 50px;
+    height: 30px;
+    padding: 0px;
+    text-align: center;
+    position: relative;
+}
+
+tfoot td{
+    border-top: 1px solid black;
+    width: 400px;
+    height: 5px;
+    padding: 0px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.total12{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.total1,.total2{
+    display: flex;
+    padding: 3px;
+}
+.imagePanier{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    
+    
+}
+.pasDeCommande{
+    display: flex;
+    font-weight: bold;
+    font-size: 29px;
+    justify-content: center;
+    color:black;
+    
+}
+/* images produit panier */
+.imageP{
+    width: 80px;
+    height: 80px;
+}
+/* button plus et moins */
+.divPlusMoins{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    /* padding-bottom: 25px; */
+}
+.divMoins,.divPlus{
+    display: flex;
+    padding: 2px;
+    
+}
+.suppPanier{
+    background-color: rgb(117, 9, 9);
+    font-style: italic;
+    color: rgb(145, 224, 187);
+    cursor: pointer;
+    
+}
+.suppPanier:hover{
+    background-color: rgb(10, 9, 9);
+    color: rgb(196, 189, 189);
+    
+}
+
+.bstorm{
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    justify-content: center;
+    color: white;
+}
